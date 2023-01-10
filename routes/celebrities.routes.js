@@ -14,7 +14,7 @@ router.post('/celebrities/create', (req,res)=>{
     const {name, occupation, catchPhrase} = req.body
     Celebrity.create({name:name,occupation:occupation,catchPhrase:catchPhrase})
     .then(()=> 
-    res.redirect('/celebrities/celebrities'))
+    res.redirect('/celebrities'))
     .catch((error)=> 
     res.render('celebrities/new-celebrity')
     )
