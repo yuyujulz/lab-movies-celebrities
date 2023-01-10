@@ -16,14 +16,15 @@ router.post('/celebrities/create', (req,res)=>{
     .then(()=> 
     res.redirect('/celebrities'))
     .catch((error)=> 
-    res.render('celebrities/new-celebrity')
+    res.redirect('/celebrities/new-celebrity')
     )
 })
-
+//relating to the GET request (URL) we revieve from the client
 router.get('/celebrities',(req,res)=>{
     Celebrity.find()
     .then((result)=> {
         console.log(result)
+        //Where in my APPLICATION/DIRECTORY is mh hbs that I want to show the user
         res.render('celebrities/celebrities', {result})
     })
     .catch((error)=> {

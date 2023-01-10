@@ -4,6 +4,56 @@ body {
 }
 
 a {
-  color: #00b7ff;
+  background-color: #36d8f4c9;
+  border-radius: 30px;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
 }
 
+a:hover, a:active {
+  background-color: rgba(154, 224, 203, 0.808);
+  border-radius: 30px;
+}
+
+.backHomeLink{
+
+  background-color: #36d8f4c9;
+  border-radius: 30px;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.backHomeLink:hover, .backHomeLink:active {
+  background-color: rgba(154, 224, 203, 0.808);
+  border-radius: 30px;
+}
+
+h1{
+  color: coral;
+  padding-bottom: 20px;
+}
+
+.submitBtn{
+
+  background-color: #f45f36c9;
+  border-radius: 30px;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+}
+
+.submitBtn:hover, .submitBtn:active {
+  background-color: rgba(197, 59, 0, 0.808);
+  border-radius: 30px;
+
+}
