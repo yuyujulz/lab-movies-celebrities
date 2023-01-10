@@ -1,0 +1,13 @@
+<h1>Movies</h1>
+<ul class="no-bullets">
+{{#each result}}
+<p>Title: {{title}}</p>
+<p>Genre: {{genre}}</p>
+<p>Plot: "{{plot}}"</p>
+{{#each cast}}
+<p>Cast: {{name}}</p>
+{{/each}}
+<a href="/movies/:id">Details</a> 
+{{/each}}
+</ul>
+​<a class="backHomeLink" href="\">Back</a>
