@@ -4,10 +4,14 @@
 <p>Title: {{title}}</p>
 <p>Genre: {{genre}}</p>
 <p>Plot: "{{plot}}"</p>
-{{#each cast}}
+{{#each result}}
 <p>Cast: {{name}}</p>
 {{/each}}
-<a href="/movies/:id">Details</a> 
+<a href="/movies/{{_id}}">Details</a> 
+<br>
+<br>
+<br>
+<a href="/movies/{{_id}}/edit">Edit</a>   
 {{/each}}
 </ul>
 ​<a class="backHomeLink" href="\">Back</a>

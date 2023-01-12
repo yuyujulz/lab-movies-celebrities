@@ -1,6 +1,13 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image : url("https://cdn.pixabay.com/photo/2019/04/24/21/55/cinema-4153289_960_720.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
 }
 
 a {
@@ -17,6 +24,7 @@ a {
 a:hover, a:active {
   background-color: rgba(154, 224, 203, 0.808);
   border-radius: 30px;
+  text-decoration: none;
 }
 
 .backHomeLink{
@@ -33,6 +41,7 @@ a:hover, a:active {
 .backHomeLink:hover, .backHomeLink:active {
   background-color: rgba(154, 224, 203, 0.808);
   border-radius: 30px;
+  text-decoration: none;
 }
 
 h1{
@@ -56,4 +65,21 @@ h1{
   background-color: rgba(197, 59, 0, 0.808);
   border-radius: 30px;
 
+}
+p {
+
+  color: azure;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+label{
+
+  color: azure;
+}
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
